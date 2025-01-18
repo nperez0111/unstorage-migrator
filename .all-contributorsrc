@@ -1,0 +1,26 @@
+{
+	"badgeTemplate": "\t<a href=\"#contributors\" target=\"_blank\"><img alt=\"👪 All Contributors: <%= contributors.length %>\" src=\"https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-<%= contributors.length %>-21bb42.svg\" /></a>",
+	"contributors": [
+		{
+			"login": "nperez0111",
+			"name": "Nick Perez",
+			"avatar_url": "https://avatars.githubusercontent.com/u/1852538?v=4",
+			"profile": "https://nickthesick.com/",
+			"contributions": [
+				"code",
+				"content",
+				"doc",
+				"ideas",
+				"infra",
+				"maintenance",
+				"projectManagement",
+				"tool"
+			]
+		}
+	],
+	"contributorsSortAlphabetically": true,
+	"projectName": "unstorage-migrator",
+	"projectOwner": "nperez0111",
+	"repoType": "github",
+	"commitConvention": "angular"
+}
