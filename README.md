@@ -22,9 +22,14 @@ npm i unstorage-migrator
 ```
 
 ```ts
-import { greet } from "unstorage-migrator";
+// Not yet published to npm, so you'll need to clone the repo and run `npm i` in the root directory
+import { migrate } from "unstorage-migrator";
 
-greet("Hello, world! 💖");
+for await (const migrated of migrate({ storage, from, to })) {
+	console.log(
+		`Migrated ${migrated.index}/${migrated.total}: ${migrated.fromKey} -> ${migrated.toKey}`,
+	);
+}
 ```
 
 ## Development
